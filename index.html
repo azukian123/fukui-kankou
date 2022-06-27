@@ -1,1 +1,9 @@
 <h1>観光紹介</h1>
+<script type="module">
+import {bg,show} from "https://js.sabae.cc/egadv.js";
+await bg();
+let a = await show("ここどこ？",["福井","石川","富山"]);
+if(a == "福井"){
+    await show("正解！");
+}
+</script>
